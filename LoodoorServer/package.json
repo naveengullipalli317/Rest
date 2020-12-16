@@ -1,0 +1,20 @@
+{
+  "name": "loodoor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon client.js",
+    "serve": "nodemon server.js"
+  },
+  "author": "Naveen Gullipalli",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
